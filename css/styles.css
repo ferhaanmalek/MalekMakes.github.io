@@ -11010,10 +11010,19 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/img/0190307_horizons_advanced_hackspace_052.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #fff;
+}
+.masthead h1, .masthead .h1,
+.masthead h3,
+.masthead .h3 {
+  color: #fff;
+}
+.masthead h3 em, .masthead .h3 em {
+  color: rgba(255, 255, 255, 0.9);
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
